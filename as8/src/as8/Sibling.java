@@ -1,0 +1,23 @@
+package as8;
+
+public class Sibling extends Object {
+	private String name;
+	private int age;
+	private int weight;
+	public Sibling (String n, int a,int w){
+		super();
+		name =n;
+		age =a ;
+		weight =w;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	
+}
